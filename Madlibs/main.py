@@ -1,5 +1,5 @@
 def madlibs():
-    # Prompts the user for various words
+    
     name = input("Enter a name: ")
     adjective1 = input("Enter an adjective: ")
     adjective2 = input("Enter another adjective: ")
@@ -8,12 +8,9 @@ def madlibs():
     verb = input("Enter a verb: ")
     place = input("Enter a place: ")
 
-    # Fills in the story with the user's input
     story = f"{name} was feeling {adjective1} one day. They decided to take a walk to the {place}. On the way, they saw a {noun1} and a {noun2}. Feeling adventurous, they decided to {verb} all the way to the {place}."
 
-    # Prints out the completed story
     print("\nHere's your madlibs story:")
     print(story)
 
-# Call the function to run the madlibs game
 madlibs()
