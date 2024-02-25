@@ -30,4 +30,3 @@ def play_game():
 
 # Play the game
 play_game()
-
